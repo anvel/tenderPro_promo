@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+
+	<title></title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/touch/apple-touch-icon-144x144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/touch/apple-touch-icon-114x114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/touch/apple-touch-icon-72x72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed"  href="images/touch/apple-touch-icon-57x57-precomposed.png" />
+	
+	<link rel="stylesheet" href="css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="css/jquery.jscrollpane.css" type="text/css" />
+	<link rel="stylesheet" href="css/common.css?v=1.0.0" type="text/css" />
+	
+	<script src="/js/external/core/minified/jquery-1.7.2.min.js" type="text/javascript"></script>
+	
+	<script src="js/jquery.mousewheel.js" type="text/javascript"></script>
+	<script src="js/jquery.jscrollpane.min.js" type="text/javascript"></script>
+	
+	<script src="js/common.js?v=1.0.0" type="text/javascript"></script>
+	
+</head>
+<body>
+	<div id="Header">
+		<div class="headerContent">
+			<a class="logo" href="/promo"></a>
+			<p class="slogan">Система электронных закупок, которая помогает заводам проводить<br /> тендеры на закупку,  а поставщикам легко принимать в них участие.</p>
+		</div>
+		<div class="headerBg"></div>	
+	</div>
+	<div id="Content">
+		
+		<ul id="Tab">
+			<li><a class="" href="#suplier"><img class="mIconDown" src="images/icons/price.gif" width="15" height="15" alt="" />Поставщику</a></li>
+			<li><a class="" href="#buyer"><img class="mIconDown" src="images/icons/good_list.gif" width="15" height="15" alt="" />Покупателю</a></li>
+			<li><a class="light" href="#registaration">Зарегистрироваться</a></li>
+		</ul>
+	
+		<div id="TabHolder">
+			<div id="suplier" class="tabitem">
+				
+				<div class="scrollBox">
+					<div class="content">
+					
+						<a href="uchastie-v-konkursah.html">
+							<img src="images/icons/icob_partic.png" width="73" height="71" alt="" />
+							<span>Участие <br />в тендерах</span>	
+						</a>
+						<a href="uvedomlenie-o-konkursah.html">
+							<img src="images/icons/icob_mail.png" width="73" height="71" alt="" />
+							<span>Уведомления<br />о тендерах</span>	
+						</a>
+						<a href="publicaciya-price-lista.html">
+							<img src="images/icons/icob_pubpl.png" width="73" height="71" alt="" />
+							<span>Публикация <br />прайс-листа</span>	
+						</a>
+						<a href="systema-reitingov.html">
+							<img src="images/icons/icob_rate.png" width="73" height="71" alt="" />
+							<span>Система<br />рейтингов</span>	
+						</a>
+						<a href="preimushestva.html">
+							<img src="images/icons/icob_benefits.png" width="73" height="71" alt="" />
+							<span>Преимущества</span>	
+						</a>
+						<a href="etapi-konkursov.html">
+							<img src="images/icons/icob_stages.png" width="73" height="71" alt="" />
+							<span>Этапы<br />тендеров</span>	
+						</a>
+						<a href="bezopasnost.html">
+							<img src="images/icons/icob_security.png" width="73" height="71" alt="" />
+							<span>Безопасность</span>	
+						</a>
+						<a href="tarifi.html">
+							<img src="images/icons/icob_tarifs.png" width="73" height="71" alt="" />
+							<span>Тарифы</span>	
+						</a>
+						<a href="otchet-o-konkursah.html">
+							<img src="images/icons/icob_report.png" width="73" height="71" alt="" />
+							<span>Отчеты</span>	
+						</a>
+						<a href="podderjka-klientov.html">
+							<img src="images/icons/icob_clientsup.png" width="73" height="71" alt="" />
+							<span>Поддержка <br />клиентов</span>	
+						</a>
+
+					</div>
+				</div>
+				
+			</div>
+			<div id="buyer" class="tabitem">
+				
+				<div class="noteBox">
+					<p><img class="mIconDown" src="images/icons/ico_phone.gif" width="15" height="15" alt="" /> Телефон для справок: <b>Россия</b> +7 (495) 215-14-38; <b>Украина</b> +380 (44) 586-41-09; <b>Казахстан</b> +7 (727) 350-73-83</p>
+				</div>
+				
+				<div class="scrollBox">
+					<div class="content">
+						<a href="vidi-konkursov.html">
+							<img src="images/icons/icob_opent.png" width="93" height="71" alt="" />
+							<span>Виды<br />тендеров</span>	
+						</a>
+						<a href="systema-reitingov.html">
+							<img src="images/icons/icob_rate.png" width="73" height="71" alt="" />
+							<span>Система<br />рейтингов</span>	
+						</a>
+						<a href="otchet-o-konkursah.html">
+							<img src="images/icons/icob_report.png" width="73" height="71" alt="" />
+							<span>Отчеты</span>	
+						</a>
+						<a href="blok-zayavok.html">
+							<img src="images/icons/icob_breq.png" width="73" height="71" alt="" />
+							<span>Блок <br />заявок</span>	
+						</a>
+						<a href="list-zakupok.html">
+							<img src="images/icons/icob_buylist.png" width="73" height="71" alt="" />
+							<span>Лист<br /> закупок</span>	
+						</a>
+						<a href="vigruzka-konkursov.html">
+							<img src="images/icons/icob_unloadt.png" width="73" height="71" alt="" />
+							<span>Выгрузка<br /> тендеров</span>	
+						</a>
+						<a href="server-integraciy.html">
+							<img src="images/icons/icob_ints.png" width="73" height="71" alt="" />
+							<span>Сервер<br /> интеграции</span>	
+						</a>
+					</div>
+				</div>
+				
+			</div>
+			<div id="registaration" class="tabitem">
+				
+				<div class="formHolder">
+				<form id="mainForm" name="formName" method="post" action="">																	
+					
+					<div class="masterInfoBlock">
+						<strong>Шаг 1.</strong> Заполнение информации об администраторе учетной записи.
+					</div>
+					
+					<div class="formLine lighted">
+						<div class="container">
+							<div class="name">
+								<div class="warnStar">*</div>
+								Логин:
+							</div>
+							<div class="param">
+								<input type="text" value="" id="login" class="textField longField" />
+							</div>
+						</div>	
+						<!--div class="description">
+							Не менее 5-ти символов, допустимы тольо латтинские буквы и цифры
+						</div-->
+						<div class="error">
+							Этот логин уже используется другим пользователем
+						</div>	
+					</div>
+					
+					<div class="formLine">
+						<div class="container">
+							<div class="name">
+								<div class="warnStar">*</div>
+								Пароль:
+							</div>
+							<div class="param">
+								<input type="text" value="" id="password" class="textField longField" />
+							</div>
+						</div>
+						<div class="description">
+							<img id="makepass" src="images/icons/ico_makepass.gif" width="16" height="16" alt="Сгенерировать пароль" title="Сгенерировать пароль" /> Не менее 6-ти символов
+						</div>	
+					</div>
+					
+					<div class="formLine">
+						<div class="container">
+							<div class="name">
+								<div class="warnStar">*</div>
+								Подтверждение пароля:
+							</div>
+							<div class="param">
+								<input type="text" value="" id="repassword" class="textField longField" />
+							</div>
+						</div>
+						<div class="description">
+							Пароль и подтверждение пароля должны совпадать
+						</div>	
+					</div>
+					
+					<div class="formLine">
+						<div class="container">
+							<div class="name">
+								<div class="warnStar">*</div>
+								Email:
+							</div>
+							<div class="param">
+								<input type="text" value="" id="" class="textField longField" />
+							</div>
+						</div>
+						<div class="description">
+							На указанный ящик будет отправлено письмо с подтверждением регистрации
+						</div>	
+					</div>
+					
+					<div class="formLine">
+						<div class="container">
+							<div class="name">
+								<div class="warnStar">*</div>
+								Язык:
+							</div>
+							<div class="param">
+								<select class="longField">
+									<option value="0"> Русский (Russian)</option>
+									<option value="1"> English</option>
+								</select>
+							</div>
+						</div>
+						<div class="description">
+							Язык по умолчанию для вашей регистрационной записи
+						</div>	
+					</div>
+					
+					<div class="formLine">
+						<div class="container">
+							<div class="name">
+								<div class="warnStar">*</div>
+								Ф.И.О.:
+							</div>
+							<div class="param">
+								<span class="warnStar">*</span><input type="text" class="textFeld shortField" value="" />
+								<span class="warnStar">*</span><input type="text" class="textFeld shortField" value="" />
+								&nbsp;<input type="text" class="textFeld shortField" value="" />
+							</div>	
+						</div>
+						<div class="description">
+							Ф.И.О. администратора регистрационной записи
+						</div>	
+					</div>
+					
+					<div class="formLine">
+						<div class="container">
+							<div class="name">
+								<div class="warnStar">*</div>
+								Личный телефон:
+							</div>
+							<div class="param">
+								<input type="text" value="+7" alt="+7" id="" class="textField longField" />
+							</div>
+						</div>
+						<div class="description">
+							В формате +7XXX-XXX-XX-XX
+						</div>	
+					</div>
+					
+					<div class="formLine">
+						<div class="container">
+							<div class="name">
+								Департамент:
+							</div>
+							<div class="param">
+								<input type="text" value="" id="" class="textField longField" />
+							</div>
+						</div>
+						<div class="description">
+							
+						</div>	
+					</div>
+					
+					<div class="formLine">
+						<div class="container">
+							<div class="name">
+								Должность:
+							</div>
+							<div class="param">
+								<input type="text" value="" id="" class="textField longField" />
+							</div>
+						</div>
+						<div class="description">
+							
+						</div>	
+					</div>
+					
+					<div class="formLine">
+						<div class="container">
+							<div class="name">
+								Промокод:
+							</div>
+							<div class="param">
+								<input type="text" value="" id="" class="textField longField" />
+							</div>
+						</div>
+						<div class="description">
+							При условии льготного приглашения
+						</div>	
+					</div>
+					
+					<div class="formLine">
+						<div class="container">
+							<div class="name">
+								
+							</div>
+							<div class="param">
+								<input type="checkbox" id="iagree" />
+								<label for="iagree">Я ознакомлен с</label>
+								<a href="#" target="_blank">правилами работы в системе</a>
+							</div>
+						</div>
+						<div class="description">
+							
+						</div>	
+					</div>						
+					
+					<div class="formLine">
+						<div class="lineDivider"></div>
+						<div class="warnNote">
+							<div class="warnStar">*</div>
+							- Обязательные поля
+						</div>
+						<div class="formButtons">								
+							<button type="submit" disabled="disabled">Далее <img src="images/icons/btn_ico_arr2.gif" width="6" height="15" alt="" /></button>		
+						</div>
+					</div>
+					</form>
+			</div>
+				
+			</div>
+		</div>

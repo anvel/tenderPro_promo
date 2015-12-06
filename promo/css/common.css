@@ -1,0 +1,737 @@
+/**
+ * Frontend page CSS styles
+ *
+ * Project: promo <br />
+ * File: common.css
+ * 
+ * @author Igor <igor@altsolution.net>
+ * @package css
+ */
+ 
+body {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 16px;
+	color: #000;
+	background: #FFF;
+} 
+
+a {
+	color: #D90D15;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #D90D15;
+}
+
+input[type=button], input[type=submit], button {
+	cursor: pointer;
+}
+
+input[type=button]:disabled, input[type=submit]:disabled, button:disabled {
+	cursor: default;
+}
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+h3 {
+	
+}
+
+h4 {
+	font-size: 16px;
+	line-height: 16px;
+	color: #b33b00;
+	padding: 5px 0 7px 0;
+	font-weight: bold;
+}
+
+p {
+	padding: 5px 0;	
+}
+
+ul.numb {
+	padding: 10px 0;	
+}
+
+ul.numb li {
+	list-style: decimal inside;
+	font-weight: normal;
+}
+
+ul.numbBold li {
+	font-weight: bold;
+	padding: 0 0 6px 0;
+}
+
+ul.numbBold li span {
+	font-weight: normal;
+}
+
+#Header {
+	width: 100%;
+	background: url(../images/headerbg2.jpg) 0 0 repeat-x;
+	min-width: 1000px;
+	border-bottom: 1px solid #cbcbcb;
+}
+
+.tCenter {
+	text-align: center;
+}
+
+.fLeft {
+	float: left;
+}
+
+.fRight {
+	float: left;
+}
+
+#Header .logo {
+	background: url(../images/logo.png) 0 0 no-repeat;
+	width :292px;
+	height: 89px;
+	display: block;
+	position: relative;
+	top: 11px;
+	left: 10px;
+}
+
+#Header .headerBg{
+	height: 165px;
+	width: 50%;
+	background: url(../images/headerbg1.jpg) 0 0 repeat-x;
+	position: relative;
+	z-index: 1;
+}
+
+#Header .slogan {
+	font-family: 'Arial Narrow', Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 20px;
+	color: #000;
+	position: absolute;
+	left: 351px;
+	top: 52px;
+}
+
+#Header .headerContent {
+	margin: 0 auto;
+	height: 165px;
+	max-width: 1260px;
+    min-width: 1000px;
+	background: url(../images/headerbg.jpg) 0 0 no-repeat;
+	position: relative;
+	z-index: 2;
+	margin-bottom: -165px;
+}
+
+#Content {
+	margin: -44px auto 0 auto;
+	max-width: 1260px;
+    min-width: 970px;	
+	position: relative;
+	z-index: 10;
+	padding: 0 15px 15px 15px;
+}
+
+#Tab {
+	height: 44px;
+}
+
+#Tab li {
+	display: block;
+	float: left;
+}
+
+#Tab li {
+	display: block;
+	float: left;
+	margin: 0 25px 0 0;
+	border-right: 1px solid #fff;
+	border-top-right-radius: 5px;
+}
+
+#Tab li a {
+	display: block;
+	float: left;
+	border: 1px solid #cbcbcb;
+	border-bottom: 1px solid #cbcbcb;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: #f0f0f0;
+	padding: 0 12px 0 9px;
+	height: 42px;
+	font-size: 18px;
+	line-height: 42px;
+	color: #000;
+	text-decoration: none;
+	white-space: nowrap;	
+}
+
+#Tab li a.light {
+	background: url(../images/tablight.png) 0 0 repeat-x;
+	text-shadow: 1px 0 1px #CCC;
+}
+
+#Tab li a.active {
+	border: 1px solid #cbcbcb;
+	border-bottom: 1px solid #FFF;
+	background: #FFF;
+}
+
+#TabHolder {
+	clear: both;
+	padding: 0 0 9px 0;
+}
+
+#TabHolder .tabitem {
+	display: none;
+}
+
+.mIconDown {
+	position: relative;
+	top: 3px;
+}
+
+#Tab .mIconDown {
+	top: 2px;
+	margin-right: 7px;	
+}
+
+.scrollBox {
+	width: 100%;
+	overflow: auto;
+	height: 161px;
+	max-height: 161px;
+}
+
+.scrollBox .content {
+	/*width: 1600px;*/
+	padding: 8px 0 26px 0;
+	height: 127px;
+	
+	white-space: nowrap;
+	vertical-align: top;
+}
+
+.scrollBox .content a {
+	vertical-align: top;
+	display: inline-block;
+	width: 130px;
+	height: 117px;
+	padding: 10px 0 0 0;
+	text-align: center;
+
+	text-decoration: none;
+}
+
+.scrollBox .content a span {
+	display: block;
+	width: 100%;
+	font-family: 'Arial Narrow', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+}
+
+.scrollBox .content a.active {
+	width: 128px;
+	height: 115px;
+	border: 1px solid #e2e2e2;
+	border-radius: 8px;
+	background: url(../images/scrollboxitemactive.png) 0 0 repeat-x #fff7c0;
+}
+
+.noteBox {
+    background-color: #FFF4BB;
+    border: 1px solid #FDC065;
+    border-radius: 4px 4px 4px 4px;
+    margin: 9px 0 0;
+    overflow: hidden;
+}
+
+.noteBox p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: normal;
+	color:#000;
+	padding: 7px 10px 9px 10px;
+}
+
+.benefitsBox p {
+	font-size: 13px;
+	line-height: 16px;
+	padding: 0 0 23px 0;
+	font-weight: normal;
+}
+
+.pic {
+	text-align: center;
+	padding: 10px 0;
+}
+
+.pic .wrappic {
+	display: inline-block;
+	border: 1px solid #e0e0e0;
+	position: relative;
+	z-index: 11;
+}
+
+.pic .wrappic img {
+	position: relative;
+	z-index: 11;
+}
+
+.pic .deco-a {
+	display: block;
+	width: 63px;
+	height: 24px;
+	background: url(../images/picdeco-l.png) 0 0 no-repeat;
+	position: absolute;
+	z-index: 10;
+	bottom: -4px;
+	left: -57px;
+}
+
+.pic .deco-b {
+	display: block;
+	width: 63px;
+	height: 24px;
+	background: url(../images/picdeco-r.png) 0 0 no-repeat;
+	position: absolute;
+	z-index: 10;
+	bottom: -4px;
+	right: -57px;
+}
+
+ul.typeof {
+	clear: both;
+}
+
+ul.typeof li {
+	min-height: 57px;
+	padding: 14px 0 0 118px;
+	position: relative;
+}
+
+ul.typeof li .ico {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+ul.typeof li p {
+	padding: 0 0 7px 0;
+}
+
+.icol {
+	width: 16px;
+	height: 11px;
+	display: inline-block;
+	overflow: hidden;
+	background: url(../images/icons/flags_matrix.png) 0 0px no-repeat;
+	margin: 0 10px 0 3px;
+}
+
+.icol-ru  {
+	background-position: -288px -231px;
+}
+
+.icol-en {
+	background-position: -336px -121px;
+}
+
+.icol-ua {
+	background-position: -336px -11px;
+}
+
+.icol-kz {
+	background-position: -176px -286px;
+}
+
+.formHolder {
+	background-color: #F4F4F4;
+	border: 1px solid #E6E6E6;
+	float: left;
+	padding: 10px 0px;
+	width: 100%;
+	font-size: 12px;
+	color: #000000;
+	margin: 13px 0 0 0;
+}
+
+.formHolder .formLine {
+	line-height: 14px;
+	width: 99%;
+	margin: 2px auto 2px auto;
+	clear: both;
+	overflow: hidden;
+	padding: 2px 0px;
+}
+
+.formHolder .container {
+	float: left;
+	width: 526px;
+	padding: 0 0 0 15px;
+}
+
+.formHolder .name {
+	float: left;
+	width: 168px;
+	padding-top: 3px;
+}
+.formHolder .param {
+	float: left;
+	width: 358px;
+	margin: 1px 0px;
+}
+
+.formHolder .description, .formHolder .error {
+	margin-left:530px;	
+	font-size: 11px;
+	color: #A4A4A4;
+	line-height: 14px;
+	padding: 0 10px;
+	text-indent: -1px;
+	padding-top: 2px;
+	position: relative;
+	position: static;
+}
+
+.formHolder .error {
+	color: #CD0808;
+	font-weight: bold;
+}
+
+.lineDivider {
+	background-color: #CCCCCC;
+	width: 90%;
+	margin: 7px 0px 3px 15px;
+	height: 1px;
+	float: left;
+	clear: both;
+	overflow: hidden;
+}
+
+.formHolder select {
+	width: 255px;
+	border:1px solid #C0C0C0;
+	font-size: 12px;
+}
+.formHolder .formButtons {
+	width: 256px;
+	float: left;	
+}
+.formHolder textarea {
+	border: 1px solid #C0C0C0;	
+	width: 253px;
+	height: 86px;
+}
+.formHolder .formButtons input{
+	margin: 7px 0px 0px 0px;
+	padding: 0px;
+}
+
+.formHolder input.textField, input.textField {
+	border:1px solid #C0C0C0;
+	height:16px;
+	padding: 0 0 0 5px;
+}
+.formHolder input.checkBox {
+	position: relative;
+	top: 3px;
+	padding-left: 0px;
+}
+* + html .formHolder input.checkBox { left: -3px; }
+
+.formHolder input.radio {
+	position: relative;
+	top: 1px;
+}
+
+.formHolder input.longField {
+	width: 343px;	
+}
+
+.formHolder select.longField {
+	width: 350px;	
+}
+
+.formHolder select option {
+	text-indent: 3px;
+}
+
+.formHolder .shortField {
+	width: 106px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+@-moz-document url-prefix()
+{
+    .formHolder .shortField { width: 100px; }
+}
+* + html .formHolder .shortField { width: 100px; }
+
+.formHolder .warnStar {
+	color: #D90D15;
+	float: left;
+	position: relative;
+	left: -7px;
+	margin-right: -6px;
+}
+.formHolder .warnNote {
+	color:#A4A4A4;
+	font-size:11px;
+	float: left;
+	width: 163px;
+	clear: none;
+	padding-left: 20px;
+}
+.formHolder .warnLine {
+	float: left;
+	width: 90%;
+	line-height: 14px;
+	font-size: 11px;
+	color: #A4A4A4;
+	padding-left: 15px;
+	margin: 5px 0px 1px 0px;
+}
+.formHolder .warnLine img {
+	border: none;
+	margin: 0px 5px 0px 0px;
+}
+.formHolder .lighted {
+	border: 1px solid #fdc065;
+	background: #fff4bb;
+	overflow: hidden;
+	padding: 1px 0px;
+}
+
+.formHolder .param .warnStar {
+	display: inline;
+	float: none;
+	margin: 0 3px 0 0;
+	left: 0;
+}
+
+.formButtons button:disabled {
+	cursor: default;
+}
+
+.formHolder textarea {
+	width: 345px;
+	height: 92px;
+	padding: 2px 0 0 3px;
+}
+
+.formHolder .halfField {
+	width: 153px;
+}
+
+.formHolder .masterInfoBlock {
+    border: 1px solid #CCCCCC;
+    color: #000000;
+	font-size: 11px;
+    line-height: 14px;
+    margin: 1px 10px 10px;
+    padding: 5px 8px 6px;
+}
+
+.formHolder a {
+	color: #d4001d;
+	text-decoration: underline;
+}
+
+.formHolder a:hover {
+	text-decoration: none;
+}
+
+#makepass {
+	cursor: pointer;
+	position: relative;
+	top: 2px;
+}
+
+.stages h4 {
+	padding-bottom: 0;
+	margin-bottom: 0px;
+}
+
+.stages p {
+	padding-bottom: 15px;
+}
+
+#loading {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 32px;
+	height: 32px;
+	background: url(../images/lightbox-ico-loading.gif) 0 0 no-repeat;
+}
+
+#registaration .formButtons button {
+	line-height: 18px;
+	padding: 0 8px;
+	height: 28px;
+}
+* + html #registaration .formButtons button { padding: 0; }
+
+#registaration .formButtons button img {
+	position: relative;
+	margin: 0px 0px -3px 4px;
+}
+	
+#Footer {
+	border-top: 1px solid #d7d9d8;
+	min-width: 1000px;
+	width: 100%;
+	clear: both;
+}
+	
+#Footer .content {
+	max-width: 1260px;
+    min-width: 970px;
+	margin: 0 auto;
+	padding: 6px 15px 10px 15px;
+}
+	
+#Footer .content p {
+	font-size: 10px;	
+	color: #737373;
+	line-height: 13px;
+	padding: 2px 0;
+}
+
+#Footer .content p a {
+	font-size: 10px;
+	color: #737373;
+}
+	
+a.callback {
+	background: url(../images/call_button.gif) 0 0 no-repeat;
+	width: 145px;
+	height: 37px;
+	display: block;
+	position: absolute;
+	top: 1px;
+	right: 15px;
+	text-indent: -9999px;
+}
+
+.skypeSupport {
+	clear: both;
+	broder: 1px solid red;
+	height: auto;
+}
+
+.skypeSupportUser{
+	margin: 5px 0px 5px 0px;
+	width: 100%;
+	clear: both;
+	float: left;
+ }
+
+.skypeUserStatus {
+	float: left;
+	height: 49px;
+	width: 182px;
+	overflow: hidden;
+}
+ 
+.skypeUserStatus img {
+	vertical-align: middle;
+	margin-top: 5px;
+}
+
+.skypeUserName {
+	margin: 23px 0px 0px 10px;
+	float: left;
+}
+
+.myTable caption {
+  border: none;
+  color: #000;
+}
+.myTable  {
+  width: auto;
+  text-align: left;
+  border-collapse: collapse;
+  color: #000000;
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0;
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;  
+  border-bottom: 1px solid #E6E6E6; 
+}
+
+.noBorder  {
+  border: 0px none !important;
+}
+
+.myTable .odd, .myTable .noHead {
+  background-color: #FFF; 
+}
+.myTable .noHead td {
+  border-top: 1px solid #E6E6E6;  
+}
+.myTable .even {
+  background-color:#EDEDED; 
+}
+.myTable td, .myTable th {
+  border-left: 1px solid #E6E6E6;
+  padding: 2px 10px 3px 10px;
+}
+
+.noBorder td, .noBorder th {
+  border-left: 0px none;
+}
+
+.myTable td {
+  height: 25px;
+}
+.myTable td:first-child {
+  border-left: none;
+}
+.myTable th, .myTable tr.thlike td {
+  border: 1px solid #fff;
+  background-image: url(../images/thead_bg.gif);
+  background-repeat: repeat-x;
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: bold;
+  color: #A00006;
+  line-height: 30px;
+  padding: 0px 10px;
+  text-align: left;
+}
+.myTable .even td {
+  border-left-color: #FFF;
+  border-right-color: #FFF;
+}
+.wide {
+  width: 100%;
+}
+.references {
+	padding: 0 0 3px 24px;
+	font-size: 10px;
+	list-style: outside none decimal;
+}
+.references li {
+	line-height: 20px;
+  list-style-position: outside;
+  text-indent: 0;
+}

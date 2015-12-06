@@ -1,0 +1,135 @@
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 16px;
+	height: 100%;
+	background: red;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 18px;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: #dde;
+	position: relative;
+}
+
+.jspDrag
+{
+	background: #bbd;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+	background: url(../images/scrollbg.png) 0 -20px repeat;
+}
+
+.jspHorizontalBar .jspDrag {
+	background: url(../images/scrollbg.png) 0 18px repeat;
+}
+
+.jspHorizontalBar .jspDragLeft {
+	width: 9px;
+	height: 18px;
+	float: left;
+	background: url(../images/scrollbg.png) 0 -40px no-repeat;
+	margin-left: -9px;
+}
+
+.jspHorizontalBar .jspDragRight {
+	width: 9px;
+	height: 18px;
+	float: right;
+	background: url(../images/scrollbg.png) -9px -40px no-repeat;
+	margin-right: -9px;
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow {
+	width: 28px;
+	float: left;
+	height: 18px;
+	background: url(../images/scrollbg.png) 0px 0px no-repeat;
+}
+
+.jspHorizontalBar .jspArrowRight {
+	background: url(../images/scrollbg.png) 100% 0 no-repeat;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}

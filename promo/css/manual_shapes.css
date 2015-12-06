@@ -1,0 +1,55 @@
+.manual .shape_enabled {
+	display: block;
+}
+
+.manual .shape_disabled {
+	display: none;
+}
+
+
+
+.manual .step_content {
+	position: relative;
+	margin-left: 65px;
+	height: 158px;
+}
+
+.manual .step_content:before {
+	content: "";
+	float: left;
+	width: 85px;
+	height: 152px;
+	shape-outside: url('../images/manual/shape_mask.png');
+	shape-image-threshold: 0.5;
+}
+
+
+.manual .step_name {
+	width: 112px;
+	height: 62px;
+	right: 0;
+	margin-top: 110px;
+	float: right;
+	shape-outside: url('../images/manual/step_name_mask.png');
+	shape-image-threshold: 0.5;
+	background: url('../images/manual/step_num_bg.png') center bottom no-repeat;
+	padding-bottom: 12px;
+
+}
+
+.manual .step_name span {
+	font-family: sans-serif;
+	display: block;
+	width:100%;
+	position: relative;
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 24px;
+	color: #ed1c24;
+}
+
+.manual .step_name .step_nm {
+	color: white;
+}
